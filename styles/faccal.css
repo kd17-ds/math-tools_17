@@ -1,0 +1,36 @@
+.result {
+  color: #cf8484;
+  width: 680px;
+  margin: 26px auto;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 16px;
+}
+.factor {
+  background-color: #8a1d1d;
+  border-radius: 2000px;
+  aspect-ratio: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* For tablet view */
+@media only screen and (max-width: 992px) {
+  .result {
+    width: 500px;
+    margin: 36px auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 16px;
+  }
+}
+/* For Mobile View */
+@media only screen and (max-width: 536px) {
+  .result {
+    width: 250px;
+    margin: 36px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+  }
+}

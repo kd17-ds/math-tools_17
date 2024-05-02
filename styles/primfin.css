@@ -1,0 +1,15 @@
+.result {
+  width: 500px;
+  margin: 30px auto;
+  border-radius: 16px;
+  padding: 10px;
+  color: #8a1d1d;
+  border: 2px solid #8a1d1d;
+}
+/* For Mobile View */
+@media only screen and (max-width: 536px) {
+  .result {
+    width: 280px;
+    padding: 12px;
+  }
+}

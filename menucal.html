@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/menucal.css" />
+    <link rel="stylesheet" href="global.css" />
+    <title>Menu Driven Calculator</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Menu Driven Calculator</h1>
+      <div class="cal">
+        <input type="number" placeholder="First Number" id="num1" />
+        <select id="operator">
+          <option value="+">+</option>
+          <option value="-">-</option>
+          <option value="*">X</option>
+          <option value="/">/</option>
+        </select>
+        <input type="number" placeholder="Second Number" id="num2" />
+      </div>
+      <button onclick="operate()">Calculate</button>
+      <div id="result" class="result hide"></div>
+    </div>
+    <a href="index.html">Home</a>
+    <h1 class="Ending">D.S</h1>
+    <p class="End">Divyansh Sharma © All Rights Reserved</p>
+  </body>
+  <script src="scripts/menucal.js"></script>
+</html>

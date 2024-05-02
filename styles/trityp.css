@@ -1,0 +1,38 @@
+.sidemanage {
+  margin: 40px 10px 20px 10px;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 10px;
+}
+.inputsides p {
+  margin: 8px;
+  font-size: 14px;
+  color: #8a1d1d;
+}
+.inputsides input {
+  color: #8a1d1d;
+  width: 200px;
+  background-color: var(--color2);
+  outline: none;
+  border: solid 1px var(--color3);
+  border-radius: 6px;
+  padding: 8px;
+  text-align: center;
+}
+.detect {
+  color: #8a1d1d;
+  border: 2px solid #8a1d1d;
+  width: 400px;
+  border-radius: 22px;
+  padding: 12px;
+  margin: 20px auto;
+}
+/* For Mobile View */
+@media only screen and (max-width: 536px) {
+  .detect {
+    width: 280px;
+    border-radius: 22px;
+    padding: 12px;
+    margin: 20px auto;
+  }
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="global.css" />
+    <link rel="stylesheet" href="styles/si.css" />
+    <title>Simple Intrest Calculator</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Simple Intrest Calculator</h1>
+      <div class="siinputs">
+        <div class="inputreq">
+          <p>Enter Principal Amount :-</p>
+          <input id="pa" type="number" min="0" max="10000000" />
+        </div>
+        <div class="inputreq">
+          <p>Enter Rate of Intrest :-</p>
+          <input id="rate" type="number" min="0" max="10000000" />
+        </div>
+        <div class="inputreq">
+          <p>Enter Time in Years :-</p>
+          <input
+            id="time"
+            type="number"
+            min="0"
+            max="10000000"
+            onkeypress="if(event.keyCode===13){calculatesi()}"
+          />
+        </div>
+      </div>
+      <button onclick="calculatesi()">Calculate</button>
+      <div class="calculate hide" id="calculate"></div>
+    </div>
+    <a href="index.html">Home</a>
+    <h1 class="Ending">D.S</h1>
+    <p class="End">Divyansh Sharma © All Rights Reserved</p>
+  </body>
+  <script src="scripts/si.js"></script>
+</html>

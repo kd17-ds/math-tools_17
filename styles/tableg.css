@@ -1,0 +1,29 @@
+.result {
+  width: 300px;
+  margin: 30px auto;
+  border-radius: 22px;
+  border: 2px solid #8a1d1d;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  color: #8a1d1d;
+  padding: 34px;
+}
+.heading {
+  margin: 0 0 20px 0;
+}
+.manage {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  border-bottom: 1px solid #8a1d1d;
+  padding: 0 0 8px 0;
+}
+/* For Mobile View */
+@media only screen and (max-width: 536px) {
+  .result {
+    width: 280px;
+  }
+}

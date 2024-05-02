@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="global.css" />
+    <link rel="stylesheet" href="styles/trityp.css" />
+    <title>Triangle Type Detector</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Triangle Type Detector</h1>
+      <div class="sidemanage">
+        <div class="inputsides">
+          <p>Enter Side 1 :-</p>
+          <input id="side1" type="number" />
+        </div>
+        <div class="inputsides">
+          <p>Enter Side 2 :-</p>
+          <input id="side2" type="number" />
+        </div>
+        <div class="inputsides">
+          <p>Enter Side 3 :-</p>
+          <input
+            id="side3"
+            type="number"
+            onkeypress="if(event.keyCode===13){valueInput()}"
+          />
+        </div>
+      </div>
+      <button onclick="valueInput()">Check</button>
+      <div class="detect hide" id="detect"></div>
+    </div>
+
+    <a href="index.html">Home</a>
+    <h1 class="Ending">D.S</h1>
+    <p class="End">Divyansh Sharma © All Rights Reserved</p>
+  </body>
+  <script src="scripts/trityp.js"></script>
+</html>
